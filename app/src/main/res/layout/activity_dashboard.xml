@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DashboardActivity">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitCenter"
+        android:layout_margin="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:textStyle="bold"
+            android:textSize="60dp"
+            android:textColor="@color/nah"
+            android:layout_height="wrap_content"
+            android:text="Belanja" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="20dp"
+
+            android:textStyle="bold"
+            android:textSize="40dp"
+            android:textColor="@color/black"
+            android:layout_height="wrap_content"
+            android:text="online" />
+
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="match_parent"
+            android:layout_height="302dp"
+            android:background="@color/white"
+            app:srcCompat="@drawable/belanjass"
+            android:scaleType="fitCenter" />
+
+        <Button
+            android:id="@+id/textLihatdata"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lihat Data"
+            android:scaleType="fitCenter"
+            android:layout_margin="20dp"
+            />
+
+        <Button
+            android:id="@+id/textInputData"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Input Data"
+            android:layout_margin="20dp"
+            android:scaleType="fitCenter"
+            />
+
+        <Button
+            android:id="@+id/textInformasi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Informasi"
+            android:layout_margin="20dp"
+            android:scaleType="fitCenter"
+            />
+    </LinearLayout>
+</RelativeLayout>
